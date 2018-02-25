@@ -4,6 +4,14 @@ author: "Jacques.Chatard"
 date: "25 février 2018"
 output: html_document
 ---
+
+I did this work as part of the assignment concerning the chapter "Getting and Cleaning Data" of the Coursera.org R programming course.
+
+The original document that contains the base files can be found on:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+
 ## About run_analysis.R script:
 in five steps:
 
