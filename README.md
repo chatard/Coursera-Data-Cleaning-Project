@@ -40,7 +40,7 @@ in my working directory unzipped files stand in a new directory named : "UCI HAR
 
 [run_analysis.R](https://github.com/chatard/Coursera-Data-Cleaning-Project/blob/master/run_analysis.R)
 
-[CodeBook.md](https://github.com/chatard/Coursera-Data-Cleaning-Project/blob/master/CODEBOOK.md)
+[CodeBook.md](https://github.com/chatard/Coursera-Data-Cleaning-Project/blob/master/CODEBOOK.Rmd)
 
 
 
