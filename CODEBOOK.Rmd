@@ -34,22 +34,25 @@ these 2 files provide an identification code in range [1, 30] to identify each t
 ## Modified or added variables during the process for my "tidy data set":
 
 
-originally :        |  modified :     | added:       | line in  run_analysis                    
---------------------|-----------------|--------------|------------------------
- activity labels:   |                 |              |   
-                    |                 |              |
- WALKING            |walking          |              | 32
- WALKING_UPSTAIRS   |walkingupstairs  |              | 32   
- WALKING_DOWNSTAIRS |walkingdownstairs|              | 32
- SITTING            |sitting          |              | 32
- STANDING           |standing         |              | 32  
- LAYING             |laying           |              | 32
- SITTING            |sitting          |              | 32
- .......            |.......          |.......       |    
- .......            |........         |    subjid    | 16  (subject identifier)
- .......            |........         | activitycode | 27  (container for activity labels)
-                    |                 |              |
-                    |                 |              | 
+ 
+ ### modified activity labels (line 32 of run_analysis.R) :  
+ 
+ WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. 
+ 
+ respectively substituted by:
+ 
+ walking, walkingupstairs, walkingdownstairs, sitting, laying.
+ 
+### added : "subjid"
+ 
+ * subjid is a subject identifier : line 16 in file run_analysis.R
+ 
+### added : "activitycode" 
+ 
+ * activitycode is a container for activity labels  : line 27 in file run_analysis.R
+ 
+ 
+ 
                     
  
                    
