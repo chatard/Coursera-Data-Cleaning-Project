@@ -5,15 +5,24 @@ date: "25 février 2018"
 output: html_document
 ---
 
-I did this work as part of the assignment concerning the chapter "Getting and Cleaning Data" of the Coursera.org R programming course.
+this work is part of the assignment concerning the chapter "Getting and Cleaning Data"
+of the Johns Hopkins University Data Science course on coursera.org.
 
-The original document that contains the base files can be found on:
+<ins>The original document that contains the base files can be found on:</ins>
 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+[UCI.EDU](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
+* Original data comes from : UCI Machine Learning Repository.
 
-## About run_analysis.R script:
-in five steps:
+* Link (below) for original zipped data files is:
+
+[zipped data files](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
+I have downloaded this zip file in my working directory on february 18th 2018.
+in my working directory unzipped files stand in a new directory named : "UCI HAR Dataset".
+
+## The purpose of this assignment is:  
+
 
 .1 Merges the training and the test sets to create one data set.
 
@@ -25,12 +34,17 @@ in five steps:
 
 .5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-* Original data comes from : UCI Machine Learning Repository.
-* Link for data files is: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+## File structure in this document:
 
-I have downloaded this zip file in my working directory on february 18th 2018.
-in my working directory unzipped files stand in a new directory named : "UCI HAR Dataset".
-detailed file system:
+[README.md](https://github.com/chatard/Coursera-Data-Cleaning-Project/blob/master/README.md)
+
+[run_analysis.R](https://github.com/chatard/Coursera-Data-Cleaning-Project/blob/master/run_analysis.R)
+
+[CodeBook.md](https://github.com/chatard/Coursera-Data-Cleaning-Project/blob/master/CodeBook.md)
+
+
+
+
 
 
 
